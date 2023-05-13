@@ -26,4 +26,6 @@ https://velog.io/@helenason/JAVA-final (final의 용도에 대해 방학 중 정
 
 static과 final이 함께 사용되면 클래스 내에 존재하는 단 하나의 상수가 된다.
 
-### 불변 객체 (immutable object): 객체 생성 이후 내부 상태 불변의 객체 (read-only)
+### 불변 객체 (immutable object)
+
+객체 생성 이후 내부 상태 불변의 객체 (read-only)
