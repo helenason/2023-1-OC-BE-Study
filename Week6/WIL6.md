@@ -10,7 +10,20 @@
 
 ## 2. static과 final 그리고 불변 객체
 
-- static: 메모리를 공유하여 사용한다. 객체 생성 없이 사용할 수 있다.
-- final: 수정 불가능하다. - final 클래스: 상속할 수 없게 됨 - final 변수: 값을 변경할 수 없게 됨 - final 메서드: 오버라이딩 할 수 없게 됨 - https://velog.io/@helenason/JAVA-final (final의 용도에 대해 방학 중 정리했던 기록이 있어서 함께 첨부합니다.)
-  이 둘이 함께 사용되면 클래스 내에 존재하는 단 하나의 상수가 된다.
-- 불변 객체 (immutable object): 객체 생성 이후 내부 상태 불변의 객체 (read-only)
+### static
+
+메모리를 공유하여 사용한다. 객체 생성 없이 사용할 수 있다.
+
+### final
+
+수정이 불가하다.
+
+- final 클래스: 상속할 수 없게 됨
+- final 변수: 값을 변경할 수 없게 됨
+- final 메서드: 오버라이딩 할 수 없게 됨
+
+https://velog.io/@helenason/JAVA-final (final의 용도에 대해 방학 중 정리했던 기록이 있어서 함께 첨부합니다.)
+
+static과 final이 함께 사용되면 클래스 내에 존재하는 단 하나의 상수가 된다.
+
+### 불변 객체 (immutable object): 객체 생성 이후 내부 상태 불변의 객체 (read-only)
